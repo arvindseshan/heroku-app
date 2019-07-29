@@ -1,44 +1,14 @@
-# python-getting-started
+# Intelligent-Pothole-Detection
+A system for real-time pothole detection. Jupyter notebooks documenting data collection, EDA, and classification, a realtime iPhone classifier, as well as a paper of our results. 
 
-A barebones Python app, which can easily be deployed to Heroku.
+## /app: 
+  data and files that comprise a realtime iOS classifier built from our classification work
+  
+##  /data :
+  all the data we collected, in CSV format
 
-This application supports the [Getting Started with Python on Heroku](https://devcenter.heroku.com/articles/getting-started-with-python) article - check it out.
+## /deprecated_notebooks: 
+  separate notebooks for data processing, EDA, and classification, prior to their combining 
 
-## Running Locally
-
-Make sure you have Python [installed properly](http://install.python-guide.org).  Also, install the [Heroku Toolbelt](https://toolbelt.heroku.com/) and [Postgres](https://devcenter.heroku.com/articles/heroku-postgresql#local-setup).
-
-```sh
-$ git clone git@github.com:heroku/python-getting-started.git
-$ cd python-getting-started
-
-$ pip install -r requirements.txt
-
-$ createdb python_getting_started
-
-$ python manage.py migrate
-$ python manage.py collectstatic
-
-$ heroku local
-```
-
-Your app should now be running on [localhost:5000](http://localhost:5000/).
-
-## Deploying to Heroku
-
-```sh
-$ heroku create
-$ git push heroku master
-
-$ heroku run python manage.py migrate
-$ heroku open
-```
-or
-
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
-
-## Documentation
-
-For more information about using Python on Heroku, see these Dev Center articles:
-
-- [Python on Heroku](https://devcenter.heroku.com/categories/python)
+## /website_visualization:
+  a javascript visualization of the route we took when collecting data. 
